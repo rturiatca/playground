@@ -1,5 +1,5 @@
-@import "./json-preview.css";
-@import "./tool-tip.css";
+@import './json-preview.css';
+@import './tool-tip.css';
 
 body {
   font-family: Inter, sans-serif;
@@ -130,7 +130,7 @@ header nav {
 
 header nav li a:hover,
 header nav li a.active {
-  color: #715cdd;
+  color: #ab8418;
 }
 
 .header-ul .hamburger-icon {
@@ -208,30 +208,30 @@ footer a {
 }
 
 .primary-btn {
-  background: #715cdd;
+  background: #ab8418;
   color: #fff;
   cursor: pointer;
 }
 
 .primary-btn:hover {
-  background: #715cdd;
+  background: #ab8418;
   color: #fff;
   font-weight: 600;
 }
 
 .secondary-btn {
-  border: 1px solid #715cdd;
-  color: #715cdd;
+  border: 1px solid #ab8418;
+  color: #ab8418;
 }
 
 .secondary-btn:hover {
-  color: #715cdd;
+  color: #ab8418;
   font-weight: bold;
 }
 
 .tertiary-btn {
   background: #ffffff;
-  color: #715cdd;
+  color: #ab8418;
   font-weight: bold;
 }
 
@@ -321,7 +321,7 @@ footer a {
 }
 
 .blog-column-left .blog-content a {
-  color: #715cdd;
+  color: #ab8418;
 }
 
 /* blog individual page */
@@ -341,7 +341,7 @@ footer a {
 }
 
 .blogpost-readmore {
-  color: #715cdd;
+  color: #ab8418;
 }
 
 .card-cta {
@@ -359,7 +359,7 @@ footer a {
   display: flex;
   justify-content: space-evenly;
   text-align: center;
-  background: #715cdd;
+  background: #ab8418;
   padding: 63px;
   color: #fff;
   flex-wrap: wrap;
@@ -370,6 +370,12 @@ footer a {
   text-align: left;
   margin-top: 65px;
   width: 475px;
+}
+
+.hero-image {
+  width: 500px;
+  height: 500px;
+  margin-top: 40px;
 }
 
 .home-content p {
@@ -410,7 +416,7 @@ footer a {
 
 .content-section a {
   font-weight: bold;
-  color: #715cdd;
+  color: #ab8418;
 }
 
 .home-featured-blogs {
@@ -634,7 +640,7 @@ footer a {
 /* blog list */
 
 .blog-page-banner {
-  background: #715cdd;
+  background: #ab8418;
   text-align: center;
 }
 
@@ -810,7 +816,7 @@ footer a {
   .header .menu-icon .navicon:before,
   .header .menu-icon .navicon:after {
     background: #333;
-    content: "";
+    content: '';
     display: block;
     height: 100%;
     position: absolute;
@@ -885,15 +891,15 @@ footer a {
   }
 
   .secondary-btn {
-    border: 1px solid #715cdd;
-    color: #715cdd;
+    border: 1px solid #ab8418;
+    color: #ab8418;
   }
 
   .hero-banner {
     display: flex;
     justify-content: space-evenly;
     text-align: left;
-    background: #715cdd;
+    background: #ab8418;
     padding: 28px;
     color: #fff;
     flex-wrap: wrap;
@@ -907,6 +913,7 @@ footer a {
     padding: 28px;
     margin: 0;
     flex-wrap: wrap-reverse;
+    background-color: blue;
   }
 
   .blog-page-content {
@@ -950,11 +957,16 @@ footer a {
     text-align: left;
     margin-top: 9px;
     width: 475px;
+    background-color: blue;
   }
 
   .home-advisor-section > img {
     max-width: 100%;
     margin-top: 40px;
+    height: 400px;
+    width: 400px;
+    padding: 50px;
+    background-color: red;
   }
 
   .featured-blog {
@@ -1118,8 +1130,8 @@ footer a {
   }
 
   .secondary-btn {
-    border: 1px solid #715cdd;
-    color: #715cdd;
+    border: 1px solid #ab8418;
+    color: #ab8418;
   }
 
   body h1 {
@@ -1151,7 +1163,7 @@ footer a {
     display: flex;
     justify-content: space-evenly;
     text-align: center;
-    background: #715cdd;
+    background: #ab8418;
     padding: 63px;
     color: #fff;
     flex-wrap: nowrap;
@@ -1416,7 +1428,7 @@ footer a {
   max-height: 150px;
 }
 .readmore-url {
-  color: #715cdd;
+  color: #ab8418;
   padding-bottom: 10px;
 }
 .superhero-nav {
